@@ -1,6 +1,7 @@
+#!/usr/bin/env bash
 # check the enviroment info
 nvidia-smi
-PYTHON="/root/miniconda3/bin/python"
+PYTHON="/home/hlzhu/.conda/envs/py04/bin/python"
 
 #network config
 NETWORK="resnet101"
@@ -24,7 +25,7 @@ USE_EXTRA_SET=False
 # replace the DATA_DIR with your folder path to the dataset.
 DATA_DIR='./dataset/cityscapes'
 DATA_LIST_PATH='./dataset/list/cityscapes/train.lst'
-RESTORE_FROM='./pretrained_model/resnet101-imagenet.pth'
+RESTORE_FROM='./pretrained_model/resnet101.pth'
 
 # Set the Output path of checkpoints, training log.
 TRAIN_LOG_FILE="./log/log_train/log_${NETWORK}_${METHOD}_${LEARNING_RATE}_${WEIGHT_DECAY}_${BATCHSIZE}_${MAX_ITERS}"	

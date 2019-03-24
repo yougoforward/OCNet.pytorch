@@ -60,7 +60,12 @@ def main():
 
     random.seed(args.seed)
     torch.manual_seed(args.seed)
-
+    
+    if not os.path.exists(args.snapshot_dir):
+        os.makedirs(args.snapshot_dir)
+    if not os.path.exists(args.snapshot_dir):
+        os.makedirs(args.snapshot_dir)
+        
     writer = SummaryWriter(args.snapshot_dir)
     os.environ["CUDA_VISIBLE_DEVICES"]=args.gpu
     h, w = map(int, args.input_size.split(','))

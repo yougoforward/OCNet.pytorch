@@ -1,0 +1,35 @@
+python train.py --network resnet101 --method base_oc_dsn --random-mirror --random-scale --gpu 0,1,2,3 --batch-size 2 \
+  --snapshot-dir ./checkpoint/snapshots_resnet101_base_oc_dsn_1e-2_5e-4_2_40000/ \
+  --num-steps 40000 --ohem False --data-list ./dataset/list/cityscapes/train.lst --weight-decay 5e-4 \
+  --input-size 769,769 --ohem-thres 0.7 --ohem-keep 0 --use-val False --use-weight True \
+  --restore-from ./pretrained_model/resnet101.pth --start-iters 0 --learning-rate 1e-2  \
+  --use-extra False --dataset cityscapes_train --data-dir ./dataset/cityscapes
+
+
+  #network config
+NETWORK="resnet101"
+METHOD="base_oc_dsn"
+DATASET="cityscapes_train"
+
+#training settings
+LEARNING_RATE=1e-2
+WEIGHT_DECAY=5e-4
+START_ITERS=0
+MAX_ITERS=40000
+BATCHSIZE=8
+INPUT_SIZE='769,769'
+USE_CLASS_BALANCE=True
+USE_OHEM=False
+OHEMTHRES=0.7
+OHEMKEEP=0
+USE_VAL_SET=False
+USE_EXTRA_SET=False
+
+# replace the DATA_DIR with your folder path to the dataset.
+DATA_DIR='./dataset/cityscapes'
+DATA_LIST_PATH='./dataset/list/cityscapes/train.lst'
+RESTORE_FROM='./pretrained_model/resnet101.pth'
+
+# Set the Output path of checkpoints, training log.
+TRAIN_LOG_FILE="./log/log_train/log_${NETWORK}_${METHOD}_${LEARNING_RATE}_${WEIGHT_DECAY}_${BATCHSIZE}_${MAX_ITERS}"
+SNAPSHOT_DIR="./checkpoint/snapshots_${NETWORK}_${METHOD}_${LEARNING_RATE}_${WEIGHT_DECAY}_${BATCHSIZE}_${MAX_ITERS}/"
