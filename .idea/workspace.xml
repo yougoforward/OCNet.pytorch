@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f3a1fa8-e157-40b5-af24-daa64cdd1cd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/hlzhu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exps.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/model_store.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/model_zoo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/resnet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oc_module/aa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oc_module/aca.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oc_module/amca.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oc_module/mask_softmax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oc_module/ssa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_resnet101_aanet.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/cityscapes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/resnet101_base_oc.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/resnet101_base_oc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/resnet101_baseline.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/resnet101_baseline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_resnet101_asp_oc.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run_resnet101_asp_oc.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_resnet101_base_oc.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run_resnet101_base_oc.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_resnet101_aanet.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run_resnet101_aanet.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
@@ -126,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run_resnet101_aanet.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="63" column="29" lean-forward="true" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -170,8 +152,8 @@
         <option value="$PROJECT_DIR$/network/__init__.py" />
         <option value="$PROJECT_DIR$/oc_module/aa.py" />
         <option value="$PROJECT_DIR$/network/resnet101_aa_dsn.py" />
-        <option value="$PROJECT_DIR$/run_resnet101_aanet.sh" />
         <option value="$PROJECT_DIR$/config/__init__.py" />
+        <option value="$PROJECT_DIR$/run_resnet101_aanet.sh" />
       </list>
     </option>
   </component>
@@ -279,12 +261,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553408524851</updated>
-      <workItem from="1553408526065" duration="13925000" />
+      <workItem from="1553408526065" duration="14248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13925000" />
+    <option name="totallyTimeSpent" value="14248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -576,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run_resnet101_aanet.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="63" column="29" lean-forward="true" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oc_module/base_oc_block.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1290">
@@ -607,6 +582,13 @@
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_resnet101_aanet.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
