@@ -1,8 +1,8 @@
-python train.py --network resnet101 --method base_oc_dsn --random-mirror --random-scale --gpu 0,1,2,3 --batch-size 2 \
-  --snapshot-dir ./checkpoint/snapshots_resnet101_base_oc_dsn_1e-2_5e-4_2_40000/ \
+python train.py --network resnet101 --method aa_dsn --random-mirror --random-scale --gpu 0,1,2,3 --batch-size 2 \
+  --snapshot-dir ./checkpoint/snapshots_resnet101_base_aa_dsn_1e-2_5e-4_2_40000/ \
   --num-steps 40000 --ohem False --data-list ./dataset/list/cityscapes/train.lst --weight-decay 5e-4 \
   --input-size 769,769 --ohem-thres 0.7 --ohem-keep 0 --use-val False --use-weight True \
-  --restore-from ./pretrained_model/resnet101.pth --start-iters 0 --learning-rate 1e-2  \
+  --restore-from ./pretrained_model/resnet101-imagenet.pth --start-iters 0 --learning-rate 1e-2  \
   --use-extra False --dataset cityscapes_train --data-dir ./dataset/cityscapes
 
 

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f3a1fa8-e157-40b5-af24-daa64cdd1cd9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_resnet101_aanet.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run_resnet101_aanet.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/exps.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,11 +90,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run_resnet101_aanet.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
+            <state relative-caret-position="450">
+              <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exps.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -123,7 +131,6 @@
         <option value="$PROJECT_DIR$/run_resnet101_asp_oc.sh" />
         <option value="$PROJECT_DIR$/train.py" />
         <option value="$PROJECT_DIR$/run_resnet101_base_oc.sh" />
-        <option value="$PROJECT_DIR$/exps.txt" />
         <option value="$PROJECT_DIR$/network/resnet101_baseline.py" />
         <option value="$PROJECT_DIR$/network/resnet101_base_oc.py" />
         <option value="$PROJECT_DIR$/network/resnet.py" />
@@ -137,6 +144,7 @@
         <option value="$PROJECT_DIR$/network/resnet101_aa_dsn.py" />
         <option value="$PROJECT_DIR$/config/__init__.py" />
         <option value="$PROJECT_DIR$/run_resnet101_aanet.sh" />
+        <option value="$PROJECT_DIR$/exps.txt" />
       </list>
     </option>
   </component>
@@ -244,12 +252,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553408524851</updated>
-      <workItem from="1553408526065" duration="14874000" />
+      <workItem from="1553408526065" duration="15279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14874000" />
+    <option name="totallyTimeSpent" value="15279000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -339,13 +347,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exps.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-line="5" selection-end-column="78" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/network/resnet101_asp_oc.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -570,8 +571,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/run_resnet101_aanet.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
+        <state relative-caret-position="450">
+          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exps.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
         </state>
       </provider>
     </entry>
